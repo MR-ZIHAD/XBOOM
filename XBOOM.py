@@ -19,38 +19,6 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-#Check Update
-def update():
-    try:
-        toolVersion = open("./version.txt", "r").read()
-    except:
-        toolVersion = "MRZIHAD"
-    
-    try:
-        mainVersion = requests.get("https://github.com/MR-ZIHAD/XBOOM/main/version.txt").text
-    except:
-        psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
-        time.sleep(1)
-        l = input("\033[92m    [\033[37m*\033[92m] Press Enter To Continue...")
-        update()
-    
-    #If Tool Version Is Same, Then Return/Close Function
-    if (toolVersion == mainVersion):
-        return
-    
-    psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!")
-    time.sleep(0.5)
-    psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
-    
-    os.system("cd .. && rm -rf XBOOM && git clone https://github.com/MR-ZIHAD/XBOOM > /dev/null 2>&1")
-    
-    psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
-    psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
-    time.sleep(0.8)
-    
-    os.system("cd .. && cd XBOOM && python XBOOM.py")
-
-
 #Logo
 def logo():
     print("""\n
