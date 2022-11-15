@@ -22,12 +22,12 @@ def psb(z):
 #Check Update
 def update():
     try:
-        toolVersion = open("./.version", "r").read()
+        toolVersion = open("./version.txt", "r").read()
     except:
         toolVersion = "MRZIHAD"
     
     try:
-        mainVersion = requests.get("https://github.com/MR-ZIHAD/XBOOM/main/.version").text
+        mainVersion = requests.get("https://github.com/MR-ZIHAD/XBOOM/main/version.txt").text
     except:
         psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
         time.sleep(1)
