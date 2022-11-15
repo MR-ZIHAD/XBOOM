@@ -14,7 +14,7 @@ useragent = random.choice(useragentList)
 #Access Checking Function
 def check():
     file = open("XBOOM.py", "r").read()
-    if not ("Author : MR-ZIHAD" in file) or not ("GitHub : https://github.com/MR-ZIHAD" in file) or not ("XBOOM" in file) or not ("https://raw.githubusercontent.com/MR-ZIHAD/XBOOM/main/.version" in file):
+    if not ("Author : MR-ZIHAD" in file) or not ("GitHub : https://github.com/MR-ZIHAD" in file) or not ("XBOOM" in file) or not ("https://github.com/MR-ZIHAD/XBOOM/main/version.txt" in file):
         print("\n\033[92m[\033[91m!\033[92m] You Have No Permission To Access This Tool!")
         print("\033[92m[\033[91m!\033[92m] Delete This Tool and git clone Again To Use It!")
         print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/MR-ZIHAD/XBOOM\n")
