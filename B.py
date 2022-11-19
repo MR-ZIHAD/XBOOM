@@ -161,9 +161,6 @@ bu = current.month
 ha = current.day
 today = date.today()
 logo =                                          ("""   
-
-     
-            
 \033[1;31m _______  _______  _______  _______  _______ 
 \033[1;32m(  ___  )(  ____ \(  ___  )(       )(  ___  )
 \033[1;33m| (   ) || (    \/| (   ) || () () || (   ) |
@@ -173,7 +170,6 @@ logo =                                          ("""
 \033[1;32m| (___) |/\____) || )   ( || )   ( || )   ( |
 \033[1;31m(_______)\_______)|/     \||/     \||/     \|
                                              
-
 \033[1;32m================= \33[32mOSAMA-X-X\33[0;37m =====================
 \033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mOSAMA-X-AKASH
 \033[1;32m     \033[1;32mFACEBOK      : \033[1;32m PAGAL SMOKER
@@ -360,18 +356,5 @@ def rcrack(uid,pwx,tl):
     except:
         pass
  
-def make():
-	try:os.mkdir('OK')
-	except:pass
-	try:os.mkdir('CP')
-	except:pass
-	try:os.system('git pull')
-	except:pass
-	clear_layar()
-	back()
-	
-	
-if __name__=='__main__':
-	make()	
-
+o()
  
