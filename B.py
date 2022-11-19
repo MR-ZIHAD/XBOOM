@@ -1,6 +1,3 @@
-# Source Generated with Decompyle++
-# File: test.pyc (Python 3.9)
-
 import os
 import sys
 import time
@@ -9,14 +6,7 @@ import uuid
 os.system('git pull')
 os.system('pkg install curl')
 
-class print:
-    
-    def __init__(self, z):
-        pass
-
-
-
-def ud():
+def o():
     os.system('clear')
     print(logo)
     print(' [1] START ')
@@ -266,7 +256,7 @@ def i():
     os.system("clear")
     print(logo)
     print ('Recomend PASSWORD \033[1;32m khan123, khan1234, khan123456, khan786 khankhan ,khan1122, baloch, khan12, Baloch, khan000 ')
-    passx = int(input("[*] Enter Password Limit : "))
+    passx = int(input("[*] Enter Password Limit : ")
     HamiiID = []
     print("")
     for bilal in range(passx):
