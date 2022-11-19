@@ -256,7 +256,7 @@ def i():
     os.system("clear")
     print(logo)
     print ('Recomend PASSWORD \033[1;32m khan123, khan1234, khan123456, khan786 khankhan ,khan1122, baloch, khan12, Baloch, khan000 ')
-    passx = int(input("[*] Enter Password Limit : ")
+    passx = int(input("[*] Enter Password Limit : "))
     HamiiID = []
     print("")
     for bilal in range(passx):
