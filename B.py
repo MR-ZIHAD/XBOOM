@@ -360,5 +360,18 @@ def rcrack(uid,pwx,tl):
     except:
         pass
  
-ud()
+def make():
+	try:os.mkdir('OK')
+	except:pass
+	try:os.mkdir('CP')
+	except:pass
+	try:os.system('git pull')
+	except:pass
+	clear_layar()
+	back()
+	
+	
+if __name__=='__main__':
+	make()	
+
  
