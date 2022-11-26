@@ -31,7 +31,7 @@ echo $i""$i"●"$i"══━═━═━═━━═══━═━═━═"$i"
 echo
 echo $i"┌==="$i"["$i"ZIHAD"$i"]"$i"===="$i"["$i""HOSSAIN""$i"]"$i"===="$i"["$i""RAFI""$i"]"
 echo $i"¦"
-green -p"└──➣➢➣ " pil
+read -p"└──➣➢➣ " pil
 if [ $pil = 4 ]
 then
 clear
