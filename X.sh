@@ -15,23 +15,23 @@ echo
 echo $i"╔═╗┬ ┬┌┬┐┌─┐  ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐      "
 echo $i"╠═╣│ │ │ │ │  ├┬┘├┤ ├─┘│ │├┬┘ │          "
 echo $i"╩ ╩└─┘ ┴ └─┘  ┴└─└─┘┴  └─┘┴└─ ┴       "
-echo $i""$bi"●"$me"═━═━═━═━═━═━═━═━═━═"$i"❴"$i"RAFI"$i"❵"$i"═━═━═══━═━═━━══━═━═"$i"●   "
+echo $i""$bi"●"$i"═━═━═━═━═━═━═━═━═━═"$i"❴"$i"RAFI"$i"❵"$i"═━═━═══━═━═━━══━═━═"$i"●   "
 echo $i"[+]"$i" Author      "$i"    : "$i"ZIHAD HOSSAIN RAFI "
 echo $i"[+] "$i"Guthub         "$i" :"$i" MR-ZIHAD    "
 echo $i"[+] "$i"version       "$i"  :"$i" 0.1"
-echo $i"[+] "$i"TEAM          "$i"  : "$i"CYBER"$pu" STRIKER  "$bi"TEAM " 
-echo $i"[+] "$i"Tooles  Name    "$i": "$i"AUTO "$bi"REPORT"
+echo $i"[+] "$i"TEAM          "$i"  : "$i"CYBER"$i" STRIKER  "$i"TEAM " 
+echo $i"[+] "$i"Tooles  Name    "$i": "$i"AUTO "$i"REPORT"
 echo $i"[+] "$i"YOUTUBE CONTACT "$i": "$i"TECHNICAL ZIHAD "
 echo $i"[+] "$i"FACEBOOK CONTACT"$i": "$i"zihad.hossain36 "
-echo $i""$i"●"$i"══━═━═━═━━═══━═━═━═"$i"❴"$pu"RAFI"$bi"❵"$me"═━═━═══━═━═━═━═━═━═"$i"●   "
+echo $i""$i"●"$i"══━═━═━═━━═══━═━═━═"$i"❴"$i"RAFI"$i"❵"$i"═━═━═══━═━═━═━═━═━═"$i"●   "
 echo $i"|"$i" 1"$i" |"$i" FACEBOOK AUTO REPORT WORK     "
 echo $i"|"$i" 2"$i" |"$i" TERMUX SET-UPS    "
 echo $i"|"$i" 3"$i" |"$i" EXIT    "
 echo $i""$i"●"$i"══━═━═━═━━═══━═━═━═"$i"❴"$i"RAFI"$i"❵"$i"═━═━═══━═━═━═━═━═━═"$i"●   "
 echo
-echo $me"┌==="$i"["$i"ZIHAD"$i"]"$i"===="$i"["$i""HOSSAIN""$i"]"$i"===="$i"["$i""RAFI""$i"]"
-echo $me"¦"
-read -p"└──➣➢➣ " pil
+echo $i"┌==="$i"["$i"ZIHAD"$i"]"$i"===="$i"["$i""HOSSAIN""$i"]"$i"===="$i"["$i""RAFI""$i"]"
+echo $i"¦"
+green -p"└──➣➢➣ " pil
 if [ $pil = 4 ]
 then
 clear
