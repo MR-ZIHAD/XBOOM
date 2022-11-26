@@ -9,7 +9,8 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
-read -p"password:  "  Rafi
+read -p"Password:  "  pass
+Password:  Rafi
 clear
 echo $i"╔═╗┬ ┬┌┬┐┌─┐  ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐      "
 echo $i"╠═╣│ │ │ │ │  ├┬┘├┤ ├─┘│ │├┬┘ │          "
