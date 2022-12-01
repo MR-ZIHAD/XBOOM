@@ -228,8 +228,8 @@ if key2 in b:
     pass
     
 else:
-    os.system("logo")
-    print
+    os.system("clear")
+    print(logo)
     print("\n\033[1;92mYour key  : "+key2)
     print("\n\033[1;92mContact Admin ")
     os.system("xdg-open https://facebook.com/zihad.hossain36")
