@@ -80,7 +80,7 @@ princp=[]
 
 try:
 
-	prox= requests.get('https://github.com/MR-ZIHAD/XBOOM/blob/main/proxy.txt').text
+	prox= requests.get('https://github.com/MR-ZIHAD/XBOOM/blob/main/prox.txt').text
 
 	open('.prox.txt','w').write(prox) 
 
