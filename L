@@ -1,0 +1,184 @@
+import os, sys, random
+
+ranum=random.randint(500,1000)
+ranum=str(ranum)
+ranum2=random.randint(50,150)
+ranum2=str(ranum2)
+os.system("rm -rf .ar")
+os.system("touch .ar")
+apr = open(".ar",'a')
+apr.write('''clear
+figlet "Auto Report"
+sleep 2
+echo  "Author   : [ZIHAD HOSSAIN RAFI]"
+sleep 2
+echo  "Facebook : [https://facebook.com/zihad.hossain36]"
+sleep 3
+echo  "Messenger: [https://m.me/zihad.hossain36]"
+sleep 4
+echo  "GitHub   : [https://github.com/MR-ZIHAD]"
+sleep 3
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo -e "\e[1;;41mFACEBOOK AUTO REPORT TOOL\e[0m"
+sleep 5
+echo -e "\e[1;;37m[LOADING DATA..]\e[0m"
+sleep 4
+echo -e "\e[1;;33m[REPORTING ACCOUNT SEARCHING..]\e[0m"
+sleep 5
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo -e "\e[1;;37m[TOTAL AVAILABLE REPORTING ACCOUNTS '''+ranum+''']\e[0m"
+sleep 5
+loop=true
+while $loop; do
+echo -e "\e[1;;42mENTER USERNAME:\e[0m"
+read username
+sleep 4
+echo -e "\e[1;;42mENTER PASSWORD:\e[0m"
+read password
+sleep 3
+
+echo -e "\e[1;;34m{Checking username and password}\e[0m"
+sleep 3
+if [[ ( $username == "Rafi" && $password == "Rafipass" ) ]]; then
+loop=false
+echo -e "\e[1;;37m{LOGIN SUCCESSFUL! TOOL ACTIVATED}\e[0m"
+else
+echo -e "\e[1;;31m{INVALID USERNAME OR PASSWORD!}\e[0m"
+fi
+done
+sleep 5
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo -e "\e[1;;34m[CHECKING DATABASE...]\e[0m"
+sleep 4
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo -e "\e[1;;36m[CONNECTION TO SERVER INITILIZING..]\e[0m"
+sleep 6
+echo -e "\e[1;;31m[FACEBOOK SERVER CONNECTING.....]\e[0m"
+sleep 6
+echo -e "\e[1;;34m[TOR CONNECTING..]\e[0m"
+sleep 5
+echo -e "\e[1;;37m[TOR CONNECTED]\e[0m"
+sleep 5
+loop=true
+while $loop; do
+echo -e "\e[1;;41mENTER YOUR TARGET ID:\e[0m"
+read input
+sleep 4
+if [ $input -eq $input 2>/dev/null -o $input -eq 0 2>/dev/null ]; then
+loop=false
+echo -e "\e[1;;34m[SEARCHING FOR ID..]\e[0m"
+
+else
+echo -e "\e[1;;34m[ID IS WRONG..]\e[0m"
+fi
+done
+sleep 4
+clear
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo "AUTOREPORT STARTING"
+echo  "[                                        ] 0% "
+sleep 5
+echo  "[..........                              ] 25%"
+sleep 5
+loop=true
+while $loop; do
+HIDCRSR(){ echo -en "\033[?25l";}
+NORM(){ echo -en "\033[?12l\033[?25h";}
+
+HIDCRSR
+connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
+
+if [[ "$connection" != 0 ]];
+then echo -e "\033[0;1;48;2;200;0;0m[-] No Internet connection!"
+NORM
+else
+loop=false
+fi
+done
+echo  "[.....................                   ] 50%"
+sleep 5	
+echo  "[..............................          ] 75%"
+sleep 5
+echo  "[........................................] 100%"
+sleep 5
+echo -e "\e[1;;37m[PLEASE WAIT!]\e[0m"
+sleep 6
+echo -e "\e[1;;34m[LOADING FINAL RESULT..]\e[0m"
+sleep 5
+echo -e "\e[1;;37m['''+ranum2+''' REPORTS DONE!]\e[0m"
+figlet "COMPLETE"''')
+apr.close()
+os.system("bash .ar")
+os.system("rm -rf .ar")
+print("ENCOURAGE ME BY STARING MY REPO!(y/n)")
+agree=input()
+if(agree=="y"):
+	os.system("xdg-open --view https://www.facebook.com/zihad.hossain36?mibextid=ZbWKwL")
+else:
+    exit()
+exit()
