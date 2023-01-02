@@ -4,18 +4,7 @@ TERMUX THEME
 <H4 align="center">
 Tool for customize your terminal color and font with ZSH
 </H4>
-<p align="center">
-<a href="https://github.com/saydog"><img alt="Version" src="https://img.shields.io/badge/Version-1.2-brightgreen"/></a>
-<a href="https://github.com/saydog"><img alt="Language" src="https://img.shields.io/badge/Language-Python-brightgreen"/></a>
-</br>
-<a href="https://github.com/saydog"><img alt="dependencies" src="https://img.shields.io/badge/Dependencies-Python%20nano%20jp2a%20bash-lightgrey"/></a>
-<a href="https://youtube.com/saydog-official"><img alt="Youtube" src="https://img.shields.io/badge/Youtube-SAYDOG-orange"/></a>
-<a href="https://instagram.com/saydog.official"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Saydog.official-orange"/></a>
-</p>
-
-<p align="center">
-Coded by <a href="https://instagram.com/iqbalmh18">Iqbalmh18</a>
-</p>
+ 
 <p align="center">
 Full tutorial <a href="https://youtu.be/GVKf7bzbN_8">click here</a>
 </p>
@@ -62,11 +51,11 @@ Full tutorial <a href="https://youtu.be/GVKf7bzbN_8">click here</a>
 ## Installation
 Termux :
 ````
-$ pkg install -y git python nano
-$ git clone https://github.com/saydog/termux-theme
-$ cd termux-theme
-$ chmod +x install.sh
-$ ./install.sh
+ pkg install -y git python nano
+ git clone https://github.com/MR-ZIHAD/termux-theme
+ cd termux-theme
+ chmod +x install.sh
+ ./install.sh
 ````
 
 ## Usage
