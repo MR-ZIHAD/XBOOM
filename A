@@ -2,6 +2,25 @@
 #use with cradit🥰🥰🥰🥰
 #ZIHAD HOSSAIN RAFI
 #Contract WhatsApp : +8801842827520
+import os
+try:
+    import requests
+except ImportError:
+    print('\n [✓] installing requests !...\n')
+    os.system('pip install requests')
+
+try:
+    import concurrent.futures
+except ImportError:
+    print('\n [✓] installing futures !...\n')
+    os.system('pip install futures')
+
+try:
+    import bs4
+except ImportError:
+    print('\n [✓] installing bs4 !...\n')
+    os.system('pip install bs4')
+   
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
@@ -87,7 +106,7 @@ logo = ("""\033[1;92m
    [+] TEAM      : CYBER STRIKER TEAM
    [+] TOOL NAME : FACEBOOK CLONING
    [+] WHATSAPP  : 8801842827520
-   [+] VERSION   : MAX     
+   [+] VERSION   : MAX
 ═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══━═━═━═━═━═━═━━══""")
 
 class Main:
@@ -101,7 +120,7 @@ class Main:
         print(" \033[1;32m  [1] EMAIL CLONING ")
         print(" \033[1;32m  [2] NAME CLONING ")
         print(" \033[1;32m  [3] NUMBER CLONING")
-        print(" \033[1;32m  [0] EXIT                                                      ═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══━═━═━═━═━═━═━━══")
+        print(" \033[1;32m  [0] EXIT                            ═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══━═━═━═━═━═━═━━══")
         RAFI =input("   [√] CHOOSE : ")
         if RAFI in ["1", "01"]:
             v1()
