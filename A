@@ -120,7 +120,7 @@ class Main:
         print(" \033[1;32m  [1] EMAIL CLONING ")
         print(" \033[1;32m  [2] NAME CLONING ")
         print(" \033[1;32m  [3] NUMBER CLONING")
-        print(" \033[1;32m  [0] EXIT                                                                                                                       ═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══━═━═━═━═━═━═━━══")
+        print(" \033[1;32m  [0] EXIT\n ═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══━═━═━═━═━═━═━━══")
         RAFI =input("   [√] CHOOSE : ")
         if RAFI in ["1", "01"]:
             v1()
