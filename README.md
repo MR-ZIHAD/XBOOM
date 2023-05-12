@@ -8,7 +8,7 @@ rm -rf XBOOM
 
 git clone https://github.com/MR-ZIHAD/XBOOM
 
-cd X-BOOM
+cd XBOOM
 
 python X-BOOM.py
 
