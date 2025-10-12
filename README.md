@@ -2,6 +2,7 @@
 
 ```
 
+pip install pycryptodome
 
 rm -rf XBOOM
 
